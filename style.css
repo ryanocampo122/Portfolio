@@ -199,16 +199,13 @@ span{
         content: "Aspiring Game Developer";
     }
     21%, 40%{
-        content: "Muscian";
+        content: "Computer Science Student";
     }
     41%, 60%{
-        content: "Student";
+        content: "Researcher";
     }
     61%, 80%{
-        content: "Artist";
-    }
-    81%, 100%{
-        content: "Aspiring Developer";
+        content: "Aspiring Artist";
     }
 }
 @media (max-width: 1000px){
