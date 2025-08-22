@@ -314,3 +314,19 @@ span{
 .project h2 a:visited {
     color: inherit;
 }
+
+.profile-picture {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.profile-picture img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: 30% 30%;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
