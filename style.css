@@ -195,9 +195,6 @@ span{
     }
 }
 @keyframes words{
-    0%, 20%{
-        content: "Aspiring Game Developer";
-    }
     21%, 40%{
         content: "Computer Science Student";
     }
