@@ -135,21 +135,40 @@ span{
 
 /* IMAGE -------------------------------------------------------- */
 
-.home-img{
-    border-radius: 50%;
+section {
+    min-height: 100vh;
+    padding: 4rem 9%;
 }
 
-.home-img img{
-    position: relative;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px #b74b4b; /* FIXED */
-    cursor: pointer;
-    transition: 0.3s ease;
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: black;
 }
 
-.home-img img:hover{
-    transform: scale(1.03);
+/* Headings more balanced */
+.home .home-content h1 {
+    font-size: 4rem;      /* was 6rem */
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 2.6rem;    /* was 4rem */
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+/* Main text much cleaner */
+.home-content p {
+    font-size: 1.45rem;   /* was 1.6rem */
+    margin-bottom: 1.8rem;
+    line-height: 1.75;    /* smoother reading */
+    max-width: 750px;     /* wider for better balance */
+    opacity: 0.85;
 }
 
 /* SOCIAL ICONS -------------------------------------------------------- */
