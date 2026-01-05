@@ -229,11 +229,6 @@ section {
     position: relative;
 }
 
-.typing-text span::before {
-    content: "Computer Science Student";
-    animation: words 6s infinite;
-}
-
 .typing-text span::after {
     content: "";
     background-color: #b74b4b;
@@ -249,16 +244,25 @@ section {
     50%, 100% { opacity: 0; }
 }
 
+.typing-text span::before {
+    content: "Computer Science Student";
+    animation: words 14s infinite;
+}
+
 @keyframes words {
-    0%, 20% {
+    0%, 45% {
         content: "Computer Science Student";
     }
-    21%, 40% {
+    50%, 95% {
         content: "Researcher";
     }
-    61%, 100% {
+    100% {
         content: "Computer Science Student";
     }
+}
+
+.typing-text span::after {
+    animation: cursor 1s infinite;
 }
 
 /* RESPONSIVE -------------------------------------------------------- */
